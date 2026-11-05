@@ -1,0 +1,15 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
+[workspace]
+resolver = "2"
+members = [
+  "crates/tpt-k-hal-acpi",
+  "crates/tpt-k-hal-fdt",
+  "crates/tpt-k-hal-pci",
+  "crates/tpt-k-hal-usb",
+  "crates/tpt-k-hal",
+]
+
+[workspace.package]
+edition = "2021"
+license = "MIT OR Apache-2.0"
+authors = ["TPT Solutions"]
